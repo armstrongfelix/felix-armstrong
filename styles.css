@@ -486,10 +486,11 @@ button:active {
     position: sticky;
     top: 0;
     padding: var(--padding-xlarge) var(--padding-xxlarge);
-    border-bottom: none;
+    border-bottom: 2px solid #ddd5d5d7;
     z-index: 100;
     gap: 50px;
     font-family: var(--font-family-secondary);
+
   }
 
   .links-hamburger-container {
