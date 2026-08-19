@@ -490,7 +490,6 @@ button:active {
     z-index: 100;
     gap: 50px;
     font-family: var(--font-family-secondary);
-
   }
 
   .links-hamburger-container {
