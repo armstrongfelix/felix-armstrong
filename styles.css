@@ -498,6 +498,7 @@ button:active {
     justify-content: space-between;
     align-items: flex-start;
     gap: 30px;
+    padding: var(--padding-medium);
     /* width: 100%; */
   }
   .navbar-links {
