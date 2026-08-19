@@ -172,6 +172,16 @@ button:active {
   /* transition: border-bottom 0.2s ease; */
 }
 
+.links-hamburger-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
 .hero {
   margin-top: 30vh;
   /* border: solid rebeccapurple; */
@@ -470,9 +480,9 @@ button:active {
   .navbar {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     position: sticky;
     top: 0;
     padding: var(--padding-large) var(--padding-xxlarge);
@@ -482,6 +492,13 @@ button:active {
     font-family: var(--font-family-secondary);
   }
 
+  .links-hamburger-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    /* width: 100%; */
+  }
   .navbar-links {
     list-style: none;
     display: flex;
@@ -489,6 +506,20 @@ button:active {
     justify-content: space-between;
     color: var(--text-color);
     font-size: var(--font-medium);
+    margin-top: 40px;
+    padding: var(--padding-large);
+    box-shadow: #dddde8 0px 0px 10px 0px;
+    border-radius: var(--border-redius-mediu);
+  }
+
+  .navbar-links-inactive {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
   }
 
   .hero {
@@ -637,4 +668,3 @@ button:active {
     gap: var(--margin-small);
   }
 }
-
