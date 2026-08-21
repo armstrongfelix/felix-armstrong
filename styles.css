@@ -767,11 +767,6 @@ body {
   letter-spacing: 0.08em;
 }
 
-.navbar-logo::before {
-  content: "// ";
-  color: var(--main-color);
-}
-
 .navbar-links {
   gap: clamp(14px, 2.5vw, 32px);
   color: var(--text-color-secondary);
